@@ -139,6 +139,7 @@ export default class Statistics extends Component {
             );
         }}
       </Consumer>
+     
     );
   }
 }

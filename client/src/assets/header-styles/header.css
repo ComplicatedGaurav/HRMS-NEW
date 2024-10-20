@@ -65,10 +65,10 @@
 }
 /* Base styles for the CTA buttons */
 .btn-cta {
-  background-color: #ffcc00; /* Bright yellow for strong CTA */
+  background-color: #56657c; /* Bright yellow for strong CTA */
   color: #263238; /* Contrast dark text */
   padding: 10px 40px;
-  border-radius: 30px; /* Rounded corners for modern look */
+  border-radius: 10px; /* Rounded corners for modern look */
   text-align: center;
   font-size: 16px;
   font-weight: 600;
@@ -79,7 +79,7 @@
 }
 
 .btn-cta:hover {
-  background-color: #ffb300; /* Slightly darker shade on hover */
+  background-color: #684908; /* Slightly darker shade on hover */
   color: #fff; /* White text on hover */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Shadow effect */
 }
@@ -87,11 +87,11 @@
 /* Outline button for Login */
 .btn-outline {
   background-color: transparent;
-  border: 2px solid #ffcc00; /* Yellow border for outline button */
-  color: #ffcc00; /* Yellow text */
+  border: 2px solid #060500; /* Yellow border for outline button */
+  color: #f8f8f8; /* Yellow text */
 }
 
 .btn-outline:hover {
-  background-color: #ffcc00; /* Filled yellow on hover */
-  color: #263238; /* Dark text on hover */
+  background-color: #342d12; /* Filled yellow on hover */
+  color: #cfd8dd; /* Dark text on hover */
 }

@@ -46,8 +46,8 @@ class Header extends Component {
 
           return (
             <>
-              <nav className="navbar custom-navbar navbar-expand-lg navbar-light">
-                <div className="" style={{display:"flex", gap:'50%', width:'100%'}}>
+              <nav className="navbar custom-navbar navbar-expand-lg navbar-light" style={{backgroundColor:"#8b999a", padding:"20px"}}>
+                <div className="" style={{display:"flex", gap:'50%', width:'100%', }}>
                   <Link to="/" className="navbar-brand brand-text">
                     {branding}
                   </Link>
@@ -84,7 +84,7 @@ class Header extends Component {
                           {/* Profile or Admin based on user role */}
                           <Link
                             to={user && user.role !== "admin" ? "/profile" : "#"}
-                            className="nav-link custom-nav-link"
+                            className="nav-link custom-nav-link " 
                           >
                             Welcome back,   {user.name}!
                           </Link>
@@ -103,7 +103,7 @@ class Header extends Component {
                           <Link to="/signup" className="nav-link custom-nav-link btn-cta">
                             SignUp
                           </Link>
-                          <Link to="/login" className="nav-link custom-nav-link btn-cta btn-outline">
+                          <Link to="/login" className="nav-link custom-nav-link btn-cta btn-outline" >
                             Login
                           </Link>
                         </>

@@ -73,8 +73,8 @@ class ContactUs extends Component {
                 <img className="loginSVG" src={contactUs} alt="" />
               </div>
 
-              <div className="col">
-                <form className="addEmpForm" onSubmit={this.submit.bind(this)}>
+              <div className="col ">
+                <form className="addEmpForm " onSubmit={this.submit.bind(this)}>
                   <h1 className="text-center">Contact Us</h1>
                   <div className="form-group">
                     {this.state.error ? (
@@ -96,7 +96,7 @@ class ContactUs extends Component {
                       className="form-control"
                       id="name"
                       name="name"
-                      placeholder="John Doe"
+                      placeholder="Enter your name"
                     />
                   </div>
                   <div className="form-group">

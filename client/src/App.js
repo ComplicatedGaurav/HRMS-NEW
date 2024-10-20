@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Provider } from "./context";
 import { HashRouter as Router, Route, Switch } from "react-router-dom";
-import bg_img from './assets/images/bg/aesth.avif'
+import bg_img from './assets/images/bg/bg3.webp'
 import Login from "./components/auth/Login";
 import Signup from "./components/auth/Signup";
 import ContactUs from "./components/layouts/ContactUs";
@@ -33,10 +33,10 @@ export default class App extends Component {
       <Provider>
         <Router>
           <div>
-          <img src={bg_img} style={{position:'fixed', top:'0', height:'100vh', width:'100vw', zIndex:'-1', opacity:'10%'}}/>
+          <img src={bg_img} style={{position:'fixed', top:'0', height:'100vh', width:'100vw', zIndex:'-1', opacity:'0%'}}/>
             <Header branding="HRMS" />
 
-            <Switch>
+            <Switch>``
               {/* general */}
               <Route exact path="/login" component={Login} />
               <Route exact path="/signup" component={Signup} />
@@ -59,6 +59,7 @@ export default class App extends Component {
 
               {/* admin related */}
               <Route exact path="/" component={Statistics} />
+              
               <Route exact path="/add" component={AddEmployee} />
               <Route exact path="/viewRequests" component={ViewRequests} />
               <Route exact path="/statistics" component={Statistics} />

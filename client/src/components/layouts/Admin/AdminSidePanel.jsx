@@ -46,9 +46,9 @@ export default class SidePanel extends Component {
               style={{ fontSize: "20px" }}
             ></i>{" "}
             {currLocation === "statistics" || currLocation === "" ? (
-              <b>Statistics</b>
+              <b>Dashbord</b>
             ) : (
-              "Statistics"
+              "Dashbord"
             )}
           </li>
         </Link>

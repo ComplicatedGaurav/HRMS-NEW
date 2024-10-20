@@ -95,7 +95,7 @@ class Login extends Component {
                       <div className="col">
                         <img className="loginSVG" src={authentication} alt="" />
                       </div>
-                      <div className="col-12 col-sm-12 col-md-4">
+                      <div className="col-12 col-sm-12 col-md-4 ">
                         <div className="container">
                           <form
                             className="loginForm "
